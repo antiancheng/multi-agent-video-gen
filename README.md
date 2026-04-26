@@ -15,7 +15,7 @@
 * **`config.py`**: 项目的配置文件（API Key配置等）。
 
 
-his is a code implementation of a video generation framework based on Multi-Agent Collaboration.
+This is a code implementation of a video generation framework based on Multi-Agent Collaboration.
 
 By orchestrating the collaboration of four specialized agents—Planning, Knowledge Retrieval, Narrative Construction, and Quality Guardianship—the system aims to address common pain points in general-purpose video generation models when dealing with domain-specific content (such as Intangible Cultural Heritage).
 
