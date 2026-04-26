@@ -30,9 +30,9 @@ Core Component Descriptions
 
 * **`guardian_agent.py` (Guardian Agent)**: Responsible for quality assurance, feedback, and corrective iterations for the generated content.
 
-video_generation_tool.py: A wrapper for the video generation model's API calls.
+* **`video_generation_tool.py`**: A wrapper for the video generation model's API calls.
 
-config.py: The project configuration file (e.g., API key settings).
+* **`config.py`**: The project configuration file (e.g., API key settings).
 
 
 
