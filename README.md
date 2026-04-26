@@ -14,6 +14,36 @@
 * **`video_generation_tool.py`**: 视频生成模型的调用接口封装。
 * **`config.py`**: 项目的配置文件（API Key配置等）。
 
+
+his is a code implementation of a video generation framework based on Multi-Agent Collaboration.
+
+By orchestrating the collaboration of four specialized agents—Planning, Knowledge Retrieval, Narrative Construction, and Quality Guardianship—the system aims to address common pain points in general-purpose video generation models when dealing with domain-specific content (such as Intangible Cultural Heritage).
+
+Core Component Descriptions
+* **`main.py`**: The entry point and main process control script for the entire multi-agent system.
+
+* **`planner_agent.py` (Planner Agent)**: Responsible for receiving user input, identifying intent, performing task planning, and anchoring core entities.
+
+* **`knowledge_agent.py` (Knowledge Agent)**: Interfaces with external knowledge bases (e.g., Knowledge Graphs) to retrieve precise domain-specific expertise.
+
+* **`storyteller_agent.py` (Storyteller Agent)**: Transforms abstract knowledge into structured video generation prompts (e.g., using a four-part narrative structure).
+
+* **`guardian_agent.py` (Guardian Agent)**: Responsible for quality assurance, feedback, and corrective iterations for the generated content.
+
+video_generation_tool.py: A wrapper for the video generation model's API calls.
+
+config.py: The project configuration file (e.g., API key settings).
+
+
+
+
+
+
+
+
+
+
+
 ## 环境安装
 
 1. 克隆本项目到本地：
